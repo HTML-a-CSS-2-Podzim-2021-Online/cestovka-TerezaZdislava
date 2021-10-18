@@ -19,7 +19,8 @@
   font-weight: 600;
   display: block;
   color: var(--hlavni-barva);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .text-box__description {
   display: block;

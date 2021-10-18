@@ -2,9 +2,14 @@
   --hlavni-barva: #f03000;
   font-family: 'Montserrat', sans-serif;
 }
+html {
+  display: flex;
+  justify-content: center;
+}
 body {
   margin-left: 5rem;
   margin-right: 5rem;
+  max-width: 1200px;
 }
 footer {
   height: 50px;
