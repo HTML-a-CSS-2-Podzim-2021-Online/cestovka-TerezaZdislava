@@ -1,0 +1,30 @@
+.text-container {
+  gap: 1.5rem;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  margin-bottom: 2.5rem;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background-color: rgb(236, 236, 236);
+}
+.text-box--center {
+  align-items: center;
+  text-align: center;
+}
+.text-box__headline {
+  font-weight: 600;
+  display: block;
+  color: var(--hlavni-barva);
+  margin: 1rem;
+}
+.text-box__description {
+  display: block;
+  color: black;
+}
+.text-box__date {
+  color: grey;
+}

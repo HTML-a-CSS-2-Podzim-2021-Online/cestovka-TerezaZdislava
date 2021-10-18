@@ -1,0 +1,52 @@
+.image-container {
+  display: flex;
+  margin-bottom: 2.5rem;
+}
+.image-box {
+  position: relative;
+  display: flex;
+  flex-shrink: 1;
+}
+.image-box--left {
+  margin-right: 1rem;
+}
+.image-box--big {
+  width: 60%;
+}
+.image-box--small {
+  width: 38%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image-box--small--top {
+  margin-bottom: 1rem;
+}
+
+/* ---------------------- */
+.image-box__image {
+  width: 100%;
+  object-fit: cover;
+}
+.image-box__price {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--hlavni-barva);
+  color: white;
+  padding: 0.5rem;
+}
+.image-box__text {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+  display: block;
+}
+.image-box__text--bold {
+  font-weight: 700;
+}
+.image-box__text--bigger {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 0.5rem;
+}
